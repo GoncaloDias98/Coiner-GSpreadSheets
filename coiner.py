@@ -83,7 +83,7 @@ def Wsheet(value, cell):
     service = discovery.build('sheets', 'v4', http=http,
                               discoveryServiceUrl=discoveryUrl)
 
-    spreadsheetid = '1ohrvEScdsBaHSl84ZnRIOAsZh__Ltvqs3pzHjWDrKv4'
+    spreadsheetid = '1Z0QRTHcukvUNyjP63XwS1zDKiUX5IpcqnQ0AI8DBmRE'
     rangeName = "AUTO!" + cell
 
     values = [
@@ -160,7 +160,8 @@ def main():
         ["B26","3060","https://whattomine.com/gpus/58-nvidia-geforce-rtx-3060?cost=0.1"],
         ["B27","6700XT","https://whattomine.com/gpus/59-amd-radeon-rx-6700-xt?cost=0.1"],
         ["B28","6900XT","https://whattomine.com/gpus/57-amd-radeon-rx-6900-xt?cost=0.1"],
-        ["B29","2070S","https://whattomine.com/gpus/55-nvidia-geforce-rtx-2070-super?cost=0.1"]
+        ["B29","2070S","https://whattomine.com/gpus/55-nvidia-geforce-rtx-2070-super?cost=0.1"],
+		["B30","5500XT","https://whattomine.com/gpus/47-amd-radeon-rx-5500-xt-8gb?cost=0.19&button="]
     ]
     
     Link = "https://whattomine.com/coins?aq_380=0&aq_fury=0&aq_470=0&aq_480=0&aq_570=0&aq_580=1&aq_vega56=0&aq_vega64=1&aq_5600xt=1&aq_5700=0&aq_5700xt=0&aq_vii=0&aq_68=0&aq_68xt=&aq_1050Ti=0&aq_10606=1&aq_1070=1&aq_1070Ti=1&aq_1080=0&aq_1080Ti=1&aq_1660=1&aq_1660Ti=0&aq_2060=1&aq_2070=1&aq_2080=1&aq_2080Ti=1&aq_3060Ti=1&aq_3070=1&aq_3080=1&eth=true&factor%5Beth_hr%5D=0.00&factor%5Beth_p%5D=0.00&e4g=true&factor%5Be4g_hr%5D=0.00&factor%5Be4g_p%5D=0.00&zh=true&factor%5Bzh_hr%5D=0.00&factor%5Bzh_p%5D=0.00&cnh=true&factor%5Bcnh_hr%5D=0.00&factor%5Bcnh_p%5D=0.00&cng=true&factor%5Bcng_hr%5D=0.00&factor%5Bcng_p%5D=0.00&cnr=true&factor%5Bcnr_hr%5D=0.00&factor%5Bcnr_p%5D=0.00&cnf=true&factor%5Bcnf_hr%5D=0.00&factor%5Bcnf_p%5D=0.00&eqa=true&factor%5Beqa_hr%5D=0.00&factor%5Beqa_p%5D=0.00&cc=true&factor%5Bcc_hr%5D=0.00&factor%5Bcc_p%5D=0.00&cr29=true&factor%5Bcr29_hr%5D=0.00&factor%5Bcr29_p%5D=0.00&cz29=true&factor%5Bcz29_hr%5D=0.00&factor%5Bcz29_p%5D=0.00&ct31=true&factor%5Bct31_hr%5D=0.00&factor%5Bct31_p%5D=0.00&ct32=true&factor%5Bct32_hr%5D=0.00&factor%5Bct32_p%5D=0.00&eqb=true&factor%5Beqb_hr%5D=0.00&factor%5Beqb_p%5D=0.00&rmx=true&factor%5Brmx_hr%5D=0.00&factor%5Brmx_p%5D=0.00&ns=true&factor%5Bns_hr%5D=0.00&factor%5Bns_p%5D=0.00&ops=true&factor%5Bops_hr%5D=0.00&factor%5Bops_p%5D=0.00&eqz=true&factor%5Beqz_hr%5D=0.00&factor%5Beqz_p%5D=0.00&zlh=true&factor%5Bzlh_hr%5D=0.00&factor%5Bzlh_p%5D=0.00&kpw=true&factor%5Bkpw_hr%5D=0.00&factor%5Bkpw_p%5D=0.00&ppw=true&factor%5Bppw_hr%5D=0.00&factor%5Bppw_p%5D=0.00&x25x=true&factor%5Bx25x_hr%5D=0.00&factor%5Bx25x_p%5D=0.00&mtp=true&factor%5Bmtp_hr%5D=0.00&factor%5Bmtp_p%5D=0.00&vh=true&factor%5Bvh_hr%5D=0.00&factor%5Bvh_p%5D=0.00&factor%5Bcost%5D=0.0&sort=Profitability7&volume=0&revenue=7d&factor%5Bexchanges%5D%5B%5D=&factor%5Bexchanges%5D%5B%5D=binance&factor%5Bexchanges%5D%5B%5D=bitfinex&factor%5Bexchanges%5D%5B%5D=bitforex&factor%5Bexchanges%5D%5B%5D=bittrex&factor%5Bexchanges%5D%5B%5D=dove&factor%5Bexchanges%5D%5B%5D=exmo&factor%5Bexchanges%5D%5B%5D=gate&factor%5Bexchanges%5D%5B%5D=graviex&factor%5Bexchanges%5D%5B%5D=hitbtc&factor%5Bexchanges%5D%5B%5D=hotbit&factor%5Bexchanges%5D%5B%5D=ogre&factor%5Bexchanges%5D%5B%5D=poloniex&factor%5Bexchanges%5D%5B%5D=stex&dataset=Main&commit=Calculate"
